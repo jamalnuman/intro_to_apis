@@ -12,9 +12,11 @@ puts "Dept: #{employee['department']}"
 puts 
 
 if employee['salary_or_hourly'] == "Salary"
-  puts "Annual Salary: #{employee["annual_salary"]}"
+  puts "Annual Salary: $#{employee["annual_salary"]}"
+  puts
 elsif employee['salary_or_hourly'] == "Hourly"
   puts "Hourly Rate: $#{employee["hourly_rate"]}"
+  puts
 end
 
 
